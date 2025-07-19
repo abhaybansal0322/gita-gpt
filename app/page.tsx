@@ -13,7 +13,7 @@ export default function Home() {
             {/* Krishna Image */}
             <div className="relative w-16 h-16 rounded-full overflow-hidden border-4 border-white shadow-lg">
               <Image
-                src="/krishna-avatar.svg"
+                src="/krishna-avatar.jpg"
                 alt="Lord Krishna"
                 fill
                 className="object-cover"
@@ -32,7 +32,7 @@ export default function Home() {
         </header>
 
         {/* Chat Container */}
-        <div className="flex-1 bg-white shadow-xl border-x border-b border-orange-200">
+        <div className="flex-1 bg-orange-50 shadow-xl border-x border-b border-orange-200">
           <ChatContainer />
         </div>
 
